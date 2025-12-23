@@ -6,8 +6,6 @@ Proje, kullanıcıya Streamlit arayüzü üzerinden dinamik olarak senaryo seçm
 
 ## 🌍 Desteklenen Senaryolar
 
-Uygulama içerisinde iki farklı gerçek hayat senaryosu simüle edilmektedir:
-
 ### Senaryo: İstanbul Turist Rotası 
 * **Amaç:** Bir tur şirketinin, İstanbul'daki 15 tarihi mekanı (Sultanahmet, Galata, Ortaköy, Çamlıca vb.) turistlere en az vakit kaybıyla gezdirmesi.
 * **Odak:** Şehir içi karmaşası ve Avrupa-Anadolu yakası geçiş optimizasyonu.
@@ -16,7 +14,7 @@ Uygulama içerisinde iki farklı gerçek hayat senaryosu simüle edilmektedir:
 
 ## 🚀 Teknik Özellikler
 
-- **Dinamik Senaryo Yönetimi:** Tek bir kod tabanı üzerinden veri setleri (Isparta/İstanbul) dinamik olarak değiştirilebilir.
+- **Dinamik Senaryo Yönetimi:** Tek bir kod tabanı üzerinden veri setleri (İstanbul) dinamik olarak değiştirilebilir.
 - **Hibrit Mesafe Motoru:**
   - 🚦 **Google Maps Distance Matrix API:** İstanbul senaryosunda köprü geçişlerini ve karayolu kısıtlamalarını hesaba katarak *gerçek sürüş mesafesini* hesaplar.
   - 📏 **Haversine (Kuş Uçuşu):** API kotası dolsa bile matematiksel formüllerle sistem çalışmaya devam eder (Fallback mekanizması).
@@ -32,7 +30,6 @@ aco_yol_optimizasyonu/
 ├── .env                  # Google API Anahtarı (Gizli)
 │
 ├── data/
-│   ├── coordinates.py    # Isparta verisi
 │   └── istanbul_data.py  # İstanbul verisi (Tarihi mekanlar)
 │
 ├── core/
