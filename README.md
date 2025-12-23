@@ -1,6 +1,6 @@
-# ACO ile Çoklu Senaryo Rota Optimizasyonu (Isparta & İstanbul)
+# ACO ile Çoklu Senaryo Rota Optimizasyonu (İstanbul)
 
-Bu proje, **Gezgin Satıcı Problemi'ni (TSP)** çözmek için **Karınca Kolonisi Algoritması (Ant Colony Optimization - ACO)** kullanan, modüler yapıda geliştirilmiş bir Python uygulamasıdır.
+Bu proje, **Gezgin Satıcı Problemi'ni (TSP)** çözmek için **Karınca Kolonisi Algoritması (Ant Colony Optimization -ACO)** kullanan, modüler yapıda geliştirilmiş bir Python uygulamasıdır.
 
 Proje, kullanıcıya Streamlit arayüzü üzerinden dinamik olarak senaryo seçme ve farklı coğrafi koşullarda en kısa rotayı hesaplama imkanı sunar.
 
